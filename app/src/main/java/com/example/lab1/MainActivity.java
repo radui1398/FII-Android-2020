@@ -127,6 +127,14 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(sendIntent);
                 return true;
+            case R.id.sensors:
+                Intent sensors_intent = new Intent(this, Sensors.class);
+                startActivity(sensors_intent);
+                return true;
+            case R.id.my_location:
+                Intent location = new Intent(this, Location.class);
+                startActivity(location);
+                return true;
             case R.id.app_settings:
                 Intent settings_intent = new Intent(this, SettingsActivity.class);
                 startActivity(settings_intent);
