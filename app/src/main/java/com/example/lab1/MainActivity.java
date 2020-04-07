@@ -135,6 +135,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent location = new Intent(this, Location.class);
                 startActivity(location);
                 return true;
+            case R.id.my_camera:
+                Intent camera_intent = new Intent(this, Camera.class);
+                startActivity(camera_intent);
+                return true;
             case R.id.app_settings:
                 Intent settings_intent = new Intent(this, SettingsActivity.class);
                 startActivity(settings_intent);

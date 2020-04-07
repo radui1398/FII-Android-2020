@@ -37,4 +37,5 @@
     <string name="my_location_title">My Location</string>
     <string name="support">Support</string>
     <string name="sensors">Sensors</string>
+    <string name="take_a_photo">Take a photo</string>
 </resources>
